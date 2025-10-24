@@ -1,16 +1,5 @@
 # autumn
 
-A new Flutter project.
+A simple clicker game set in the season of autumn (not fall, the season's name is ***autumn***) where you click a pumpkin, and can buy autoclickers with pumpkins.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Written in Dart+Flutter, with the pumpkin icon as a RenderBox/LeafRenderObjectWidget and an InkResponse with a custom ShapeBorder. This app was my first time using Flutter Widget Preview, and I didn't run `flutter run` even once when making this app.

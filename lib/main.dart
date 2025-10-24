@@ -192,7 +192,6 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     InkResponse(
-                      // todo: hit testing???, highlight shape
                       customBorder: PumpkinBorder(),
                       highlightShape: BoxShape.rectangle,
                       hoverColor: Colors.orange.withAlpha(100),
