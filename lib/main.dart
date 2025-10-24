@@ -69,7 +69,6 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
 
   @override
   void initState() {
-    pumpkins = 100;
     super.initState();
     ticker = createTicker((_) {
       ticks++;
@@ -214,7 +213,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                 (e) => Positioned(
                   left: constraints.biggest.width / 2 + e.pos.dx,
                   top: constraints.biggest.height / 2 + e.pos.dy,
-                  child: SizedBox(width: 20, height: 20, child: Pumpkin()),
+                  child: IgnorePointer(child: SizedBox(width: 20, height: 20, child: Pumpkin())),
                 ),
               ),
             ],
